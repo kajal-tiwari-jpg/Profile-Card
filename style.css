@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  box-shadow: 50px;
+  color: rgb(15, 15, 15);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, #fd7b7b, #65ccf5);
+  align-items: center;
+}
+
+.profile-container {
+  position: relative;
+  background: rgb(251, 249, 249);
+  width: 400px;
+  padding: 90px 50px 50px;
+  border-radius: 10%;
+}
+
+.image-container {
+  width: 200px;
+  height: 100%;
+  margin-top: 0%;
+  border-radius: 50%;
+  border: 5px solid black;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  left: 50%;
+  flex-direction: column;
+  transform: translate(-50%, -10%);
+  padding: 0px;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.Full-Name {
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 2px;
+  color: darkred;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.info-role {
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.place {
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+.post-info {
+  line-height: 1.7;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.post-info span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.social-container {
+  font-size: 1.3em;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: -10%;
+  box-shadow: none;
+  letter-spacing: 0.2px;
+}
+
+.social-container button {
+  border: none;
+  width: 20%;
+  outline: none;
+  font-size: 1.4em;
+  border-radius: 10%;
+  text-align: center;
+  align-items: center;
+  padding: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.social-container button :hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+.youtube {
+  background-color: red;
+}
+.Instagram {
+  background-color: rgb(203, 95, 154);
+}
+.linkedin {
+  background-color: rgb(71, 144, 208);
+}
+.Github {
+  background-color: gray;
+}
+.action {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.action {
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(200, 11, 11);
+  border: none;
+  border-radius: 2%;
+  padding: 10px 100px;
+  width: 100%;
+  margin-top: 25px;
+  box-shadow: opx 8px 25px black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.action.message {
+  background-color: blue;
+}
+.action:hover {
+  transform: scale(0.8);
+  opacity: 0.85;
+}
